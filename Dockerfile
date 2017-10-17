@@ -1,7 +1,7 @@
 FROM node:8
 MAINTAINER xun "me@xun.my"
 
-RUN yarn global add --dev semantic-release-gitlab
+RUN yarn global add semantic-release-gitlab
 
 # ENTRYPOINT ["/usr/local/bin/semantic-release-gitlab"]
 
